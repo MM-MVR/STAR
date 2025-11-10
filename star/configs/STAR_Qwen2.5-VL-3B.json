@@ -1,0 +1,35 @@
+{
+    "model_name": "STAR_Qwen2.5-3B_VQGAN",
+    "model_type": "STARMultiModalityConfig",
+    "language_model": {
+        "model_name": "Qwen2.5-VL",
+        "model_path": "checkpoints/Qwen2.5-VL-3B-Instruct"
+    },
+    "pixel_encoder": {
+        "model_name": "VQ_Model",
+        "model_path": "checkpoints/VQ-Model.pt",
+        "image_token_size": 65536,
+        "n_embed": 512,
+        "num_tokens": 576,
+        "num_heads": 8
+    },
+    "pixel_adapter": {
+        "model_name": "MLP_GELU",
+        "depth": 2,
+        "input_dim": 512,
+        "n_embed": 2048
+    },
+    "stacked_ar": {
+        "num_layers": 16
+    },
+    "pixel_output_head": {
+        "image_token_embed": 4096,
+        "image_token_size": 65536,
+        "n_embed": 2048
+    },
+    "pixel_decoder": {
+        "model_name": "LUMINA2",
+        "model_path": "checkpoints/lumina-image2"
+    },
+    "torch_dtype": "bfloat16"
+}
