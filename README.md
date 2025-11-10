@@ -210,13 +210,13 @@ python3 inference_edit.py \
 
 | Model | Single | Two | Count. | Colors | Pos. | Color Attr. | Overall |
 | ----- | ------ | --- | ------ | ------ | ---- | ----------- | ------- |
-| <td colspan="6" align="center">**Generation-Only Models**</td> |
+| <td align="center">**Generation-Only Models**</td> |
 | SDXL | 0.98 | 0.74 | 0.39 | 0.85 | 0.15 | 0.23 | 0.55 |
 | DALL-E | 0.96 | 0.87 | 0.47 | 0.83 | 0.43 | 0.45 | 0.67 |
 | SD3-medium | 0.99 | 0.94 | 0.72 | 0.89 | 0.33 | 0.60 | 0.74 |
 | FLUX.1-dev | 0.98 | 0.93 | 0.75 | 0.93 | 0.68 | 0.65 | 0.82 |
 | OmniGen2 | 0.99 | 0.96 | 0.74 | 0.98 | 0.72 | 0.75 | 0.86 |
-| <td colspan="6" align="center">**Unified Models**</td> |
+| <td align="center">**Unified Models**</td> |
 | Emu3 | 0.99 | 0.81 | 0.42 | 0.80 | 0.49 | 0.45 | 0.66 |
 | ILLUME+ | 0.99 | 0.88 | 0.62 | 0.84 | 0.42 | 0.53 | 0.72 |
 | Janus-Pro | 0.99 | 0.89 | 0.59 | 0.90 | 0.79 | 0.66 | 0.80 |
