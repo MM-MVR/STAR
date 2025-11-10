@@ -9,28 +9,22 @@
       alt="STAR Paper on arXiv"
     />
   </a>
-  <a href="#">
+  <a href="https://star-mm-ai.github.io/">
     <img
       src="https://img.shields.io/badge/STAR-Project-0A66C2?logo=safari&logoColor=white"
       alt="STAR Project"
     />
   </a>
-  <a href="#">
+  <a href="https://huggingface.co/MM-MVR/STAR-7B">
     <img 
         src="https://img.shields.io/badge/STAR-Models-yellow?logo=huggingface&logoColor=yellow" 
         alt="STAR Models"
     />
   </a>
-  <a href="#">
-    <img
-      src="https://img.shields.io/badge/STAR-Demo-blue?logo=googleplay&logoColor=blue"
-      alt="STAR Demo"
-    />
-  </a>
-  <a href="#">
+  <a href="https://huggingface.co/spaces/MM-MVR/STAR">
     <img 
         src="https://img.shields.io/badge/STAR-Space-orange?logo=huggingface&logoColor=yellow" 
-        alt="STAR HuggingFace Space"
+        alt="STAR Demo"
     />
   </a>
 </p>
@@ -57,9 +51,9 @@ Multimodal large language models (MLLMs) play a pivotal role in advancing the qu
 
 | Model Name | Checkpoint | Config |
 | :--------: | :--------: | :----: |
-| STAR-3B | [Link](#) | [Config](star/configs/STAR_Qwen2.5-VL-3B.json) |
-| STAR-7B | [Link](#) | [Config](star/configs/STAR_Qwen2.5-VL-7B.json) |
-| VQ Model | [Link](#) | - |
+| STAR-3B | [Link](https://huggingface.co/MM-MVR/STAR-3B) | [Config](star/configs/STAR_Qwen2.5-VL-3B.json) |
+| STAR-7B | [Link](https://huggingface.co/MM-MVR/STAR-7B) | [Config](star/configs/STAR_Qwen2.5-VL-7B.json) |
+| VQ Model | [Link](https://huggingface.co/MM-MVR/STAR-VQ) | - |
 
 
 ## 📚 Preparation
