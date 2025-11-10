@@ -703,7 +703,7 @@ def create_interface():
                 {get_text("usage_step2")}
                 {get_text("usage_step3")}
                 """,  
-                f"✅ Language switched to {language.upper()} successfully! / 语言已成功切换为{language.upper()}！"  # 状态消息
+                f"✅ Language switched to {language.upper()} successfully! / 语言已成功切换为{language.upper()}！"  
             ]
 
         language_dropdown.change(
