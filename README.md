@@ -62,7 +62,7 @@ Multimodal large language models (MLLMs) play a pivotal role in advancing the qu
 
 1. Set up environment
 ```shell
-git clone 
+git clone https://github.com/MM-MVR/STAR.git
 cd STAR
 conda create -n star python==3.11 -y
 conda activate star
