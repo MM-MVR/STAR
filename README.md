@@ -15,16 +15,16 @@
       alt="STAR Project"
     />
   </a>
-  <a href="https://huggingface.co/MM-MVR/STAR-7B">
-    <img 
-        src="https://img.shields.io/badge/STAR-Models-yellow?logo=huggingface&logoColor=yellow" 
-        alt="STAR Models"
-    />
-  </a>
   <a href="https://huggingface.co/spaces/MM-MVR/STAR">
     <img 
         src="https://img.shields.io/badge/STAR-Space-orange?logo=huggingface&logoColor=yellow" 
         alt="STAR Demo"
+    />
+  </a>
+  <a href="https://huggingface.co/MM-MVR/STAR-7B">
+    <img 
+        src="https://img.shields.io/badge/STAR-Models-yellow?logo=huggingface&logoColor=yellow" 
+        alt="STAR Models"
     />
   </a>
 </p>
@@ -62,7 +62,7 @@ Multimodal large language models (MLLMs) play a pivotal role in advancing the qu
 
 1. Set up environment
 ```shell
-git clone <repository-url>
+git clone 
 cd STAR
 conda create -n star python==3.11 -y
 conda activate star
