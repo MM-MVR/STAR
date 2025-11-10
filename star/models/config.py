@@ -1,5 +1,5 @@
 import json
-from attrdict import AttrDict
+from attrdict2 import AttrDict
 from transformers.configuration_utils import PretrainedConfig
 
 def load_config_from_json(json_path):
