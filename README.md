@@ -210,13 +210,13 @@ python3 inference_edit.py \
 
 | Model | Single | Two | Count. | Colors | Pos. | Color Attr. | Overall |
 | ----- | ------ | --- | ------ | ------ | ---- | ----------- | ------- |
-| <td colspan="6" align="center">**Generation-Only Models**</td> 
+| **Generation-Only Models**|
 | SDXL | 0.98 | 0.74 | 0.39 | 0.85 | 0.15 | 0.23 | 0.55 |
 | DALL-E | 0.96 | 0.87 | 0.47 | 0.83 | 0.43 | 0.45 | 0.67 |
 | SD3-medium | 0.99 | 0.94 | 0.72 | 0.89 | 0.33 | 0.60 | 0.74 |
 | FLUX.1-dev | 0.98 | 0.93 | 0.75 | 0.93 | 0.68 | 0.65 | 0.82 |
 | OmniGen2 | 0.99 | 0.96 | 0.74 | 0.98 | 0.72 | 0.75 | 0.86 |
-| <td colspan="6" align="center">**Unified Models**</td> 
+| **Unified Models**</td> |
 | Emu3 | 0.99 | 0.81 | 0.42 | 0.80 | 0.49 | 0.45 | 0.66 |
 | ILLUME+ | 0.99 | 0.88 | 0.62 | 0.84 | 0.42 | 0.53 | 0.72 |
 | Janus-Pro | 0.99 | 0.89 | 0.59 | 0.90 | 0.79 | 0.66 | 0.80 |
@@ -236,13 +236,13 @@ python3 inference_edit.py \
 
 | Model | Global | Entity | Attr. | Relation | Other | Overall |
 | ----- | ------ | ------ | ----- | -------- | ----- | ------- |
-| <td colspan="5" align="center">**Generation-Only Models**</td> |
+| **Generation-Only Models** |
 | SDXL | 83.27 | 82.43 | 80.91 | 86.76 | 80.41 | 74.65 |
 | DALL-E | 90.97 | 89.61 | 88.39 | 90.58 | 89.83 | 83.50 |
 | SD3-medium | 87.90 | 91.01 | 88.83 | 80.70 | 88.68 | 84.08 |
 | FLUX.1-dev | 82.10 | 89.50 | 88.70 | 91.10 | 89.40 | 84.00 |
 | OmniGen2 | 88.81 | 88.83 | 90.18 | 89.37 | 90.27 | 83.57 |
-| <td colspan="5" align="center">**Unified Models**</td> |
+| **Unified Models** |
 | Emu3 | 85.21 | 86.68 | 86.84 | 90.22 | 83.15 | 80.60 |
 | ILLUME+ | - | - | - | - | - | - |
 | Janus-Pro | 86.90 | 88.90 | 89.40 | 89.32 | 89.48 | 84.19 |
@@ -262,11 +262,11 @@ python3 inference_edit.py \
 
 | Model | Cultural | Time | Space | Biology | Physics | Chemistry | Overall |
 | ----- | -------- | ---- | ----- | ------- | ------- | --------- | ------- |
-| <td colspan="6" align="center">**Generation-Only Models**</td> |
+| **Generation-Only Models** |
 | SD-XL | 0.43 | 0.48 | 0.47 | 0.44 | 0.45 | 0.27 | 0.43 |
 | SD-3.5-large | 0.44 | 0.50 | 0.58 | 0.44 | 0.52 | 0.31 | 0.46 |
 | FLUX.1-dev | 0.48 | 0.58 | 0.62 | 0.42 | 0.51 | 0.35 | 0.50 |
-| <td colspan="6" align="center">**Unified Models**</td> |
+| **Unified Models** |
 | Emu3 | 0.34 | 0.45 | 0.48 | 0.41 | 0.45 | 0.27 | 0.39 |
 | Janus-Pro-7B | 0.30 | 0.37 | 0.49 | 0.36 | 0.42 | 0.26 | 0.35 |
 | MetaQuery-XL | 0.56 | 0.55 | 0.62 | 0.49 | 0.63 | 0.41 | 0.55 |
@@ -296,14 +296,14 @@ python3 inference_edit.py \
 
 | Model | Add | Adjust | Extract | Replace | Remove | Background | Style | Hybrid | Action | Overall |
 | ----- | --- | ------ | ------- | ------- | ------ | ---------- | ----- | ------ | ------ | ------- |
-| <td colspan="9" align="center">**Editing-Only Models**</td> |
+| **Editing-Only Models** |
 | MagicBrush | 2.84 | 1.58 | 1.51 | 1.97 | 1.58 | 1.75 | 2.38 | 1.62 | 1.22 | 1.90 |
 | Instruct-Pix2Pix | 2.45 | 1.83 | 1.44 | 2.01 | 1.50 | 1.44 | 3.55 | 1.20 | 1.46 | 1.88 |
 | AnyEdit | 3.18 | 2.95 | 1.88 | 2.47 | 2.23 | 2.24 | 2.85 | 1.56 | 2.65 | 2.45 |
 | UltraEdit | 3.44 | 2.81 | 2.13 | 2.96 | 1.45 | 2.83 | 3.76 | 1.91 | 2.98 | 2.70 |
 | Step1X-Edit | 3.88 | 3.14 | 1.76 | 3.40 | 2.41 | 3.16 | 4.63 | 2.64 | 2.52 | 3.06 |
 | ICEdit | 3.58 | 3.39 | 1.73 | 3.15 | 2.93 | 3.08 | 3.84 | 2.04 | 3.68 | 3.05 |
-| <td colspan="9" align="center">**Unified Models**</td> |
+| **Unified Models** |
 | GPT-4o | 4.61 | 4.33 | 2.90 | 4.35 | 3.66 | 4.57 | 4.93 | 3.96 | 4.89 | 4.20 |
 | OmniGen | 3.47 | 3.04 | 1.71 | 2.94 | 2.43 | 3.21 | 4.19 | 2.24 | 3.38 | 2.96 |
 | BAGEL | 3.56 | 3.31 | 1.70 | 3.30 | 2.62 | 3.24 | 4.49 | 2.38 | 4.17 | 3.20 |
