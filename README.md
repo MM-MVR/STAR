@@ -79,11 +79,13 @@ pip install -r requirements.txt
 ```
 
 ### Download Pre-trained Models
-Download the necessary pre-trained models before proceeding to inference.
+Download the necessary pre-trained models before proceeding to inference. Download [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) and [Lumina-Image-2.0](https://huggingface.co/Alpha-VLLM/Lumina-Image-2.0) from Huggingface.
 
 ```shell
 STAR/checkpoints/STAR-7B.pt
 STAR/checkpoints/VQ-Model.pt
+STAR/checkpoints/Qwen2.5-VL-7B-Instruct
+STAR/checkpoints/lumina-image2
 ```
 
 ### Configuration
