@@ -76,6 +76,8 @@ pip install -U pip setuptools
 # install required packages
 pip install -r requirements.txt
 
+pip install flash-attn --no-build-isolation
+
 ```
 
 ### Download Pre-trained Models
