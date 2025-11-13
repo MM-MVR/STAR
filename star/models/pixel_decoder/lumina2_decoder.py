@@ -48,7 +48,7 @@ class Lumina2Decoder(torch.nn.Module):
                     variant=args.variant,
                 )
         if args.ori_inp_dit=="seq":
-            from diffusers import Lumina2Transformer2DModel
+            from star.models.pixel_decoder.transformer_lumina2_seq import Lumina2Transformer2DModel
         elif args.ori_inp_dit=="ref":
             from star.models.pixel_decoder.transformer_lumina2 import Lumina2Transformer2DModel
 
@@ -310,7 +310,7 @@ class Lumina2InstructPix2PixPipeline(Lumina2Pipeline):
         max_sequence_length: int = 256,
         control_emd="text",
         img_cfg_trunc_ratio =[0.0,1.0],
-        gen_image_embeds=None,only_t2i="vqconcat",ori_inp_img=None,img_guidance_scale=1.5,vq_guidance_scale=0,ori_inp_way="none",
+        gen_image_embeds=None,only_t2i="vqconcat",image_prompt_embeds=None,ori_inp_img=None,img_guidance_scale=1.5,vq_guidance_scale=0,ori_inp_way="none",
     ) -> Union[ImagePipelineOutput, Tuple]:
         
         height = height or self.default_sample_size * self.vae_scale_factor
@@ -318,7 +318,7 @@ class Lumina2InstructPix2PixPipeline(Lumina2Pipeline):
         self._guidance_scale = guidance_scale
         self._attention_kwargs = attention_kwargs
 
-        num_images_per_prompt = gen_image_embeds.shape[0]
+        num_images_per_prompt = gen_image_embeds.shape[0] if gen_image_embeds is not None else image_prompt_embeds.shape[0]
         # 1. Check inputs. Raise error if not correct
         self.check_inputs(
             prompt,
