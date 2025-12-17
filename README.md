@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/xxxx.xxxxx">
+  <a href="https://arxiv.org/abs/2512.13752">
     <img
       src="https://img.shields.io/badge/STAR-Paper-red?logo=arxiv&logoColor=red"
       alt="STAR Paper on arXiv"
@@ -318,7 +318,7 @@ python3 inference_edit.py \
 @article{2025star,
   title   = {STAR: STacked AutoRegressive Scheme for Unified Multimodal Learning},
   author  = {Qin, Jie and Huang, Jiancheng and Qiao, Limeng and Ma, Lin},
-  journal = {arXiv preprint arXiv:},
+  journal = {arXiv preprint arXiv: 2512.13752},
   year    = {2025}
 }
 ```
