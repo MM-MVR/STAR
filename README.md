@@ -315,11 +315,11 @@ python3 inference_edit.py \
 ## ✍️ Citation
 
 ```bibtex
-@article{2025star,
-  title   = {STAR: STacked AutoRegressive Scheme for Unified Multimodal Learning},
-  author  = {Qin, Jie and Huang, Jiancheng and Qiao, Limeng and Ma, Lin},
-  journal = {arXiv preprint arXiv:2512.13752},
-  year    = {2025}
+@article{qin2025star,
+  title={STAR: STacked AutoRegressive Scheme for Unified Multimodal Learning},
+  author={Qin, Jie and Huang, Jiancheng and Qiao, Limeng and Ma, Lin},
+  journal={arXiv preprint arXiv:2512.13752},
+  year={2025}
 }
 ```
 
