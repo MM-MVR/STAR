@@ -3,10 +3,9 @@ from PIL import Image
 import torch
 import torchvision
 from torchvision import transforms
+from torchvision.transforms import InterpolationMode
 
 BACKGROUND_COLOR=(127, 127, 127)
-
-from torchvision.transforms import InterpolationMode
 
 def preprocess_image_with_min_size(image, min_factor=28):
     width, height = image.size 
