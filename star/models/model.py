@@ -15,7 +15,6 @@ from transformers import (
     AutoModelForCausalLM,
     PreTrainedModel
 )
-
 from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor, Qwen2VLProcessor
 
 from star.models.config import STARMultiModalConfig
