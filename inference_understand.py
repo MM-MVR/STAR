@@ -7,7 +7,6 @@ import argparse
 import numpy as np
 from PIL import Image
 
-
 from star.models.config import load_config_from_json
 from star.models.config import STARMultiModalConfig
 from star.models.model import STARMultiModal
