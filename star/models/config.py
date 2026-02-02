@@ -2,6 +2,7 @@ import json
 from attrdict2 import AttrDict
 from transformers.configuration_utils import PretrainedConfig
 
+
 def load_config_from_json(json_path):
     with open(json_path, "r") as f:
         config_data = json.load(f)
