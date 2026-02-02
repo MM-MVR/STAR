@@ -19,7 +19,6 @@ from PIL import Image
 from decord import VideoReader
 import transformers
 
-
 def get_rope_index_25(
     spatial_merge_size: Optional[int] = 2,
     input_ids: Optional[torch.LongTensor] = None,
