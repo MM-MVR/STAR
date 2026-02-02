@@ -24,7 +24,7 @@ from einops import repeat
 from diffusers.models.embeddings import get_1d_rotary_pos_embed
 import itertools
 
-logger = logging.get_logger(__name__)  # pylint: disable=invalid-name
+logger = logging.get_logger(__name__)  
 
 
 class Lumina2CombinedTimestepCaptionEmbedding(nn.Module):
