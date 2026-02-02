@@ -12,6 +12,7 @@ from diffusers.training_utils import (
 )
 from diffusers.pipelines.lumina2.pipeline_lumina2 import *
 
+
 class Lumina2Decoder(torch.nn.Module):
     def __init__(self, config, args):
         super().__init__()
